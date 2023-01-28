@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    border: 1px hidden black;
+    height: 80px;
+    width: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.navbar-container {
+    border: 1px hidden red;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    border: 1px hidden green;
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3em;
+    color: white;
+}
+
+.nav-items {
+    border: 1px hidden black;
+    height: 100%;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    cursor: pointer;
+}
+
+/** FIRST SECTION **/
+.first-section {
+    border: 1px hidden red;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.first-section-container {
+    border: 1px hidden white;
+    height:  400px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-side {
+    border: 1px hidden red;
+    height: auto;
+    width: 50%;
+}
+
+.right-side  h1 {
+    color: white;
+    font-size: 5em;
+    margin: 0;
+    font-weight: 800;
+}
+
+.right-side p {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 3px;
+    font-weight: 300;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.right-side button {
+    border: none;
+    height: 40px;
+    width: 120px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: white;
+    margin-top: 10px;
+}
+
+.img-container {
+    border: 1px hidden white;
+    height: 400px;
+    width: 50%;
+}
+
+.img-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* ** SECOND SECTION ** */
+.second-section, 
+.quote-section,
+.sign-up-section
+{
+    border: 1px hidden black;
+    height: 360px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    border: 1px hidden black;
+    height: 220px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card .img-section {
+    border: 1px solid blue;
+    height: 120px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.card .img-section {
+    border: 3px solid #3882F6;
+    height: 150px;
+    width: 80%;
+    border-radius: 15px;
+}
+
+.card .img-section img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card .text-card {
+    border: 1px hidden pink;
+    width: 80%;
+    height: auto;
+    text-align: center;
+}
+
+.card .text-card p {
+    margin: 4px;
+}
+
+/** QUOTE SECTION ***/
+.quote-section {
+    border: 1px hidden black;
+    height: 400px;
+    width: 100%;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.quote-section p:nth-child(1) {
+    border: 1px hidden black;
+    width: 55%;
+    font-size: 28px;
+    color: #1F2937;
+    letter-spacing: 1px;
+    margin: 0;
+    font-style: italic;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 300;
+}
+
+.signature {
+    border: 1px hidden black;
+    width: 55%;
+    text-align: right;
+    margin: 0;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.sign-up-section {
+    border: 1px hidden black;
+    height: 300px;
+    width: 100%;
+}
+
+.sign-up-container {
+    border: 1px hidden orange;
+    height: 120px;
+    width: 70%;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button-signup {
+    border: 2px solid white;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: transparent;
+    color: white;
+}
+
+.sign-up-container div p:nth-child(1) {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.sign-up-container div p:nth-child(2) {
+    margin: 0;
+    font-weight: 500;
+}
+
+/* **** FOOTER **** */
+.footer {
+    border: 1px hidden black;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #59233C;
+  }
+  
+  .footer-content {
+    border: 1px hidden pink;
+    width: auto;
+    height: auto;
+    color: white;
+  }
